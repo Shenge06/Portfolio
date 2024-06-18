@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/path-to-your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  nav.navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  footer.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .download-cv {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 1rem;
+    color: #ff7f50;
+    text-decoration: none;
+  }
+  
+  .download-cv svg {
+    margin-right: 0.5rem;
+  }
+  
